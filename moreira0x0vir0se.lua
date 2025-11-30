@@ -111,7 +111,7 @@ local serverLinkFinal = nil
 local startTime = os.time()
 
 local function SendWebhook(extraFields)
-    local timeStr = "foi há " .. os.date("%H:%M")
+    local timeStr = "foi às " .. os.date("%H:%M")
 
     local payloadTable = {
         username = "virose methods",
